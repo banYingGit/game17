@@ -1,0 +1,24 @@
+<res>
+   <item name="pageImg/bg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/bg2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/logo.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/loading1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/loading2.png" type="Image" compress="0" pack="1" quality="80" props="sizeGrid=5,20,5,20" picType="0"/>
+   <item name="pageImg/cloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud10.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud11.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud12.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud13.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud14.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud15.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud3.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud5.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud6.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud7.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud8.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud9.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb" type="" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/cloudRb/cloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+</res>
