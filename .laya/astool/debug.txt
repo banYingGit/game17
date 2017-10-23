@@ -1,2 +1,3 @@
-Project configuration:d:\Documents\myLayaaaaqaaaaaqqsaaaaaaaareqaaaaasaaqq/.actionScriptProperties.
-******************************************************************************
+1,0.00,,0,Project command:f:\TAOBAO\game17(点击钻石)\game17/.actionScriptProperties;iflash=false;windowshow=false;chromerun=false;quickcompile=true
+Project configuration:f:\TAOBAO\game17(点击钻石)\game17/.actionScriptProperties.
+7,0.00,,0,Read FB err:f:/TAOBAO/game17(点击钻石)/game17/.actionScriptProperties
