@@ -15,11 +15,11 @@ var Game = (function () {
 
     Game.prototype.init = function () {
 
-        this.GameView = new GameView();
+        this.GameViewOne = new GameViewOne();
 
-        this.GameView.init();
+        this.GameViewOne.init();
 
-        Laya.stage.addChild(this.GameView);
+        Laya.stage.addChild(this.GameViewOne);
     };
 
     return Game;

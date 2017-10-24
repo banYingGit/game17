@@ -21,4 +21,45 @@
    <item name="pageImg/cloudRb/cloud9.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/cloudRb" type="" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/cloudRb/cloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud10.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud11.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud12.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud13.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud14.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud15.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud3.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud5.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud6.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud7.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud8.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud9.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mlCloud.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mrCloud.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mountain1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mountain2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud" type="" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_0.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_10.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_11.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_12.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_13.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_14.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_3.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_5.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_6.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_7.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_8.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud/cloud_9.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/fixedCloud.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/rbCloud0.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mountain3.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/mountain4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/screen2Text.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
 </res>
