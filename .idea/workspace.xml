@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2baa30-bec2-4c55-b7bf-0ae91a484e49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laya/assets/pageImg/btnBg1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laya/assets/pageImg/btnBg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laya/assets/pageImg/btnBg3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/laya/assets/pageImg/btnBg4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg3~.png" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg3~.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg4~.png" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg4~.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/rec" afterPath="$PROJECT_DIR$/bin/res/atlas/rec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laya/pages/gamePage.ui" afterPath="$PROJECT_DIR$/laya/pages/gamePage.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laya/styles.xml" afterPath="$PROJECT_DIR$/laya/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gameView.js" afterPath="$PROJECT_DIR$/src/gameView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.atlas" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg.atlas" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.json" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/layaUI.max.all.js" afterPath="$PROJECT_DIR$/src/ui/layaUI.max.all.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -363,7 +362,7 @@
       <updated>1508742570120</updated>
       <workItem from="1508742571714" duration="6185000" />
       <workItem from="1508802787566" duration="20291000" />
-      <workItem from="1508894063605" duration="21754000" />
+      <workItem from="1508894063605" duration="21787000" />
     </task>
     <task id="LOCAL-00001" summary="load">
       <created>1508749252315</created>
@@ -414,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508919259362</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="等级一">
+      <created>1508921214511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1508921214511</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48230000" />
+    <option name="totallyTimeSpent" value="48263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -552,8 +558,8 @@
         <state relative-caret-position="147">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <marker date="1508920196884" expanded="true" signature="134:16687" ph="{...}" />
-            <marker date="1508920196884" expanded="true" signature="159:198" ph="{...}" />
+            <marker date="1508921223006" expanded="true" signature="134:17969" ph="{...}" />
+            <marker date="1508921223006" expanded="true" signature="159:198" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -592,8 +598,8 @@
         <state relative-caret-position="504">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <marker date="1508920196884" expanded="true" signature="134:16687" ph="{...}" />
-            <marker date="1508920196884" expanded="true" signature="159:198" ph="{...}" />
+            <marker date="1508921223006" expanded="true" signature="134:17969" ph="{...}" />
+            <marker date="1508921223006" expanded="true" signature="159:198" ph="{...}" />
           </folding>
         </state>
       </provider>
