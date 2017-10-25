@@ -62,4 +62,5 @@
    <item name="pageImg/mountain3.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/mountain4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/screen2Text.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/screen4Text.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
 </res>
