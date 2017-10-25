@@ -79,7 +79,6 @@ var GameView = (function (_super) {
 
         animateDiamonds = function () {
 
-            console.log('------------------')
             Laya.timer.clear($this, animateDiamondsShow)
 
             i = ( i + 1 ) <= 3 ? (i + 1 ) : 1
@@ -102,7 +101,6 @@ var GameView = (function (_super) {
                 n = 0
                 Laya.timer.clear($this, animateDiamondsShow)
             }
-            console.log('nnnnnnnnnnn', n)
             $diamonds.skin = '../laya/assets/pageImg/diamondsB' + n + '.png'
         };
 
