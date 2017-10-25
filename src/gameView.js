@@ -13,23 +13,29 @@ var GameView = (function (_super) {
 
     GameView.prototype.init = function () {
 
+        //当前等级
+        this.level = 1;
+        //当前倒计时时间 120秒*1000
+        this.time = 120000;
+        this.scoreSum = 0;
+
+        /***this.changeVal()
+         *  改变值  cloudNum，affectNUm，speed
+         * */
+        //云朵数量
+        this.cloudNum = '';
+        //混淆数量
+        this.affectNUm = '';
+        //钻石显示时间
+        this.speed = '';
+        this.changeVal();
 
         //当前点击正确次数
         this.clickNum = 0;
-        //当前等级
-        this.level = 1;
-        //当前倒计时时间
-        this.time = 300;
-        //云朵数量
-        this.cloudNum = 3;
-        //混淆数量
-        this.affectNUm = 0
+        //钻石皮肤
+        this.skinD = 'diamondsB';
         //当前得分
-        this.score = 0
-        //钻石显示时间
-        this.speed = 1500
-        this.skinD = 'diamondsB'
-
+        this.score = 0;
 
         this.loading();
         //游戏开始按钮
@@ -40,6 +46,8 @@ var GameView = (function (_super) {
         Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
         //本次训练结束退出（实际是下一等级）
 
+        //暂停
+        this.stopBtn.on(Laya.Event.CLICK, this, this.stopClick);
         this.levelOut.on(Laya.Event.CLICK, this, this.outClick);
     };
 
@@ -182,7 +190,7 @@ var GameView = (function (_super) {
 
             this.score = this.score + 100 * this.level
 
-            this.scoreBox.text = this.score
+            this.scoreBox.text = this.score + this.scoreSum
 
             console.log('点击正确数', this.clickNum)
 
@@ -195,7 +203,6 @@ var GameView = (function (_super) {
                     this.level = this.level + 1;
                 }
 
-                this.changeVal()
 
                 setTimeout(function () {
 
@@ -234,6 +241,13 @@ var GameView = (function (_super) {
         }
 
     }
+
+    //游戏暂停
+    GameView.prototype.stopClick = function () {
+
+        this.screenStop.visible = true
+        this.screen3.visible = false
+    };
     //游戏退出
     GameView.prototype.outClick = function () {
 
