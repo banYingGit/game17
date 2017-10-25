@@ -14,16 +14,54 @@ var GameView = (function (_super) {
     var animateDiamonds, animateDiamondsShow;
     GameView.prototype.init = function () {
 
-        console.log('>>>>>>>>>>')
-
-
-        // //游戏开始按钮
-        // this.startButton.on(Laya.Event.CLICK, this, this.startButtonClick);
-        // this.nextStep.on(Laya.Event.CLICK, this, this.nextStepClick);
+        this.loading();
+        //游戏开始按钮
+        this.startButton.on(Laya.Event.CLICK, this, this.startButtonClick);
+        this.nextStep.on(Laya.Event.CLICK, this, this.nextStepClick);
         // // this.diamonds.on(Laya.Event.CLICK, this, this.diamondsClick);
-        // Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
+        Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
     };
 
+    GameView.prototype.loading = function () {
+
+
+        //进度条加载
+        Laya.Tween.to(this.load, {
+
+            width: 890
+
+        }, 3000, null, this.isShowStart(), false, true);
+
+        //钻石移动
+        Laya.Tween.to(this.loadD, {
+
+            x: 890
+
+        }, 3000, null, false, true);
+
+
+    };
+    GameView.prototype.isShowStart = function () {
+
+        var $this = this
+        setTimeout(function () {
+            $this.loadBox.visible = false
+            $this.startButton.visible = true
+        }, 3500)
+
+    }
+    GameView.prototype.startButtonClick = function () {
+
+        this.screen1.visible = false;
+        this.screen2.visible = true;
+
+    };
+    GameView.prototype.nextStepClick = function () {
+
+        this.screen2.visible = false;
+        this.screen3.visible = true;
+        this.setDiamonds()
+    }
 
 
     GameView.prototype.setDiamonds = function () {

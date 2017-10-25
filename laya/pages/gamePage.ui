@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"View",
-    "selectedBox":1,
-    "selecteID":128,
+    "selectedBox":94,
+    "selecteID":162,
     "props":{"width":1920,"sceneColor":"#000000","height":1200},
     "nodeParent":-1,
     "label":"View",
@@ -25,24 +25,391 @@
             "compId":2,
             "child":[
                 ],
+            "$LOCKED":true,
             "$HIDDEN":false
         },
         {
             "x":15,
-            "type":"View",
-            "props":{"visible":false,"var":"screen3"},
+            "type":"Box",
+            "props":{"y":0,"x":0,"var":"screen1"},
             "nodeParent":1,
-            "label":"View(screen3)",
+            "label":"Box(screen1)",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":130,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":179,"x":754,"skin":"pageImg/logo.png","name":"logo"},
+                    "nodeParent":130,
+                    "label":"Image(logo)",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":131,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":120,"x":1770,"skin":"pageImg/button1.png"},
+                    "nodeParent":130,
+                    "label":"Image",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":132,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":100,"x":-6,"width":112,"text":"退出","height":56,"fontSize":50,"font":"Microsoft YaHei","color":"#ffffff"},
+                            "nodeParent":132,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":140,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":320,"x":1770,"skin":"pageImg/button2.png"},
+                    "nodeParent":130,
+                    "label":"Image",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":133,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":100,"x":-6,"width":112,"text":"帮助","height":56,"fontSize":50,"font":"Microsoft YaHei","color":"#ffffff","align":"center"},
+                            "nodeParent":133,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":141,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Box",
+                    "props":{"y":1020,"x":520,"var":"loadBox"},
+                    "nodeParent":130,
+                    "label":"Box(loadBox)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":134,
+                    "child":[
+                        {
+                            "type":"Image",
+                            "props":{"y":30,"x":50,"width":900,"skin":"pageImg/loading1.png","name":"loadingBg","height":35},
+                            "nodeParent":134,
+                            "label":"Image(loadingBg)",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":142,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "type":"Image",
+                            "props":{"y":35,"x":55,"width":0,"var":"load","skin":"pageImg/loading2.png","name":"load","height":25},
+                            "nodeParent":134,
+                            "label":"Image(load)",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":143,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "type":"Image",
+                            "props":{"y":0,"x":0,"var":"loadD","skin":"pageImg/diamonds_b.png"},
+                            "nodeParent":134,
+                            "label":"Image(loadD)",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":144,
+                            "child":[
+                                ]
+                        }],
+                    "$HIDDEN":false
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":961,"x":775,"visible":false,"var":"startButton","skin":"pageImg/btn1.png"},
+                    "nodeParent":130,
+                    "label":"Image(startButton)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":135,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":18,"x":0,"width":440,"text":"开 始","height":88,"fontSize":60,"font":"Microsoft YaHei","color":"#ffffff","align":"center"},
+                            "nodeParent":135,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":145,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":739,"x":491,"skin":"pageImg/fixedCloud.png"},
+                    "nodeParent":130,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":136,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":870,"x":1195,"skin":"pageImg/rbCloud0.png"},
+                    "nodeParent":130,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":137,
+                    "child":[
+                        ],
+                    "$HIDDEN":false
+                },
+                {
+                    "x":30,
+                    "type":"Text",
+                    "props":{"y":90,"x":70,"wordWrap":true,"text":"山海云游","fontSize":70,"color":"#ffffff"},
+                    "nodeParent":130,
+                    "label":"Text",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":138,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Text",
+                    "props":{"y":400,"x":87,"wordWrap":true,"width":50,"text":"脑力训练系列","height":313,"fontSize":45,"font":"Microsoft YaHei","color":"#ffffff"},
+                    "nodeParent":130,
+                    "label":"Text",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":139,
+                    "child":[
+                        ]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Box",
+            "props":{"y":0,"x":0,"visible":false,"var":"screen2"},
+            "nodeParent":1,
+            "label":"Box(screen2)",
             "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
-            "compId":129,
+            "compId":147,
             "child":[
                 {
+                    "type":"Image",
+                    "props":{"y":960,"x":775,"var":"nextStep","skin":"pageImg/btn1.png"},
+                    "nodeParent":147,
+                    "label":"Image(nextStep)",
+                    "isOpen":null,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":150,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":18,"x":0,"width":440,"text":"下一步","height":88,"fontSize":60,"font":"Microsoft YaHei","color":"#ffffff","align":"center"},
+                            "nodeParent":150,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":154,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":20,"x":20,"width":1910,"skin":"pageImg/mountain1.png","alpha":1},
+                    "nodeParent":147,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":151,
+                    "child":[
+                        ]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":20,"x":20,"width":1642,"skin":"pageImg/mountain2.png","alpha":1},
+                    "nodeParent":147,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":152,
+                    "child":[
+                        ]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":363,"x":505,"skin":"pageImg/screen2Text.png"},
+                    "nodeParent":147,
+                    "label":"Image",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":153,
+                    "child":[
+                        {
+                            "type":"Box",
+                            "props":{"y":70,"x":221},
+                            "nodeParent":153,
+                            "label":"Box",
+                            "isOpen":true,
+                            "isDirectory":true,
+                            "isAniNode":true,
+                            "hasChild":true,
+                            "compId":155,
+                            "child":[
+                                {
+                                    "type":"Text",
+                                    "props":{"text":"本训练提升您的","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "nodeParent":155,
+                                    "label":"Text",
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":156,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "type":"Text",
+                                    "props":{"x":408,"text":"表现","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "nodeParent":155,
+                                    "label":"Text",
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":157,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "type":"Text",
+                                    "props":{"x":285,"text":"注意力","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
+                                    "nodeParent":155,
+                                    "label":"Text",
+                                    "isOpen":false,
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":158,
+                                    "child":[
+                                        ]
+                                }]
+                        },
+                        {
+                            "type":"Box",
+                            "props":{"y":156,"x":221},
+                            "nodeParent":153,
+                            "label":"Box",
+                            "isOpen":true,
+                            "isDirectory":true,
+                            "isAniNode":true,
+                            "hasChild":true,
+                            "compId":159,
+                            "child":[
+                                {
+                                    "type":"Text",
+                                    "props":{"y":0,"x":20,"text":"请关注钻石的","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "nodeParent":159,
+                                    "label":"Text",
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":160,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "type":"Text",
+                                    "props":{"y":0,"x":260,"text":"位置和颜色","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
+                                    "nodeParent":159,
+                                    "label":"Text",
+                                    "isOpen":false,
+                                    "isDirectory":false,
+                                    "isAniNode":true,
+                                    "hasChild":false,
+                                    "compId":161,
+                                    "child":[
+                                        ]
+                                }]
+                        }]
+                }],
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Box",
+            "props":{"y":0,"x":0,"visible":false,"var":"screen3","mouseEnabled":true},
+            "nodeParent":1,
+            "label":"Box(screen3)",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":146,
+            "child":[
+                {
+                    "x":30,
                     "type":"Box",
                     "props":{"y":0,"x":0,"visible":false,"var":"cloud"},
-                    "nodeParent":129,
+                    "nodeParent":146,
                     "label":"Box(cloud)",
                     "isOpen":false,
                     "isDirectory":true,
@@ -124,9 +491,10 @@
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Box",
                     "props":{"y":0,"x":0,"width":1920,"visible":true,"var":"header","height":1200},
-                    "nodeParent":129,
+                    "nodeParent":146,
                     "label":"Box(header)",
                     "isOpen":false,
                     "isDirectory":true,
@@ -235,309 +603,179 @@
                     "$HIDDEN":true
                 },
                 {
+                    "x":30,
                     "type":"Box",
-                    "props":{"y":282,"x":198,"var":"cloud12"},
-                    "nodeParent":129,
+                    "props":{"y":0,"x":0,"width":1920,"var":"cloud12","height":1200},
+                    "nodeParent":146,
                     "label":"Box(cloud12)",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":94,
                     "child":[
                         {
-                            "type":"Box",
-                            "props":{"y":115,"x":70,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":395,"x":275,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":67,
+                            "hasChild":false,
+                            "compId":66,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"y":0,"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":67,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":66,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"x":456,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":278,"x":652,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":69,
+                            "hasChild":false,
+                            "compId":163,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":69,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":70,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":9,"x":1046,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":350,"x":983,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":71,
+                            "hasChild":false,
+                            "compId":164,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":71,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":72,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":543,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":285,"x":1251,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":73,
+                            "hasChild":false,
+                            "compId":165,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":73,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":74,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":401,"x":283,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":565,"x":735,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":75,
+                            "hasChild":false,
+                            "compId":166,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":75,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":76,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":297,"x":530,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":677,"x":490,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":77,
+                            "hasChild":false,
+                            "compId":167,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":77,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":78,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":409,"x":918,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":812,"x":207,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":79,
+                            "hasChild":false,
+                            "compId":168,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":79,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":80,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":540,"x":646,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":939,"x":554,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":81,
+                            "hasChild":false,
+                            "compId":169,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":81,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":82,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":653,"x":360,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":818,"x":834,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":83,
+                            "hasChild":false,
+                            "compId":170,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":83,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":84,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":688,"x":1033,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":682,"x":1127,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":85,
+                            "hasChild":false,
+                            "compId":171,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":85,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":86,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":412,"x":1212,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":687,"x":1404,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":87,
+                            "hasChild":false,
+                            "compId":172,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":87,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":88,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         },
                         {
-                            "type":"Box",
-                            "props":{"y":118,"x":750,"width":300,"height":200},
+                            "x":45,
+                            "type":"Image",
+                            "props":{"y":961,"x":1221,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
-                            "label":"Box",
-                            "isOpen":false,
-                            "isDirectory":true,
+                            "label":"Image",
+                            "isDirectory":false,
                             "isAniNode":true,
-                            "hasChild":true,
-                            "compId":91,
+                            "hasChild":false,
+                            "compId":173,
                             "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"y":0,"x":0,"skin":"pageImg/yun0.png"},
-                                    "nodeParent":91,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":92,
-                                    "child":[
-                                        ]
-                                }]
+                                ]
                         }]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":345,"x":353,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds0"},
-                    "nodeParent":129,
+                    "props":{"y":345,"x":353,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds0","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds0)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -547,9 +785,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":245,"x":749,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds1"},
-                    "nodeParent":129,
+                    "props":{"y":243,"x":755,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds1","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds1)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -559,9 +798,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":247,"x":1338,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds2"},
-                    "nodeParent":129,
+                    "props":{"y":247,"x":1338,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds2","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds2)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -571,9 +811,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":356,"x":1042,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds3"},
-                    "nodeParent":129,
+                    "props":{"y":318,"x":1080,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds3","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds3)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -583,9 +824,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":526,"x":818,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds4"},
-                    "nodeParent":129,
+                    "props":{"y":526,"x":818,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds4","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds4)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -595,9 +837,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":641,"x":572,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds5"},
-                    "nodeParent":129,
+                    "props":{"y":641,"x":572,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds5","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds5)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -607,9 +850,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":790,"x":288,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds6"},
-                    "nodeParent":129,
+                    "props":{"y":790,"x":288,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds6","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds6)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -619,9 +863,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":661,"x":1204,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds7"},
-                    "nodeParent":129,
+                    "props":{"y":661,"x":1204,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds7","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds7)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -631,9 +876,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":660,"x":1497,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds8"},
-                    "nodeParent":129,
+                    "props":{"y":660,"x":1497,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds8","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds8)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -643,9 +889,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":901,"x":651,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds9"},
-                    "nodeParent":129,
+                    "props":{"y":901,"x":642,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds9","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds9)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -655,9 +902,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":792,"x":933,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds10"},
-                    "nodeParent":129,
+                    "props":{"y":792,"x":933,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds10","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds10)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -667,9 +915,10 @@
                         ]
                 },
                 {
+                    "x":30,
                     "type":"Image",
-                    "props":{"y":942,"x":1322,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds11"},
-                    "nodeParent":129,
+                    "props":{"y":942,"x":1322,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds11","mouseEnabled":true},
+                    "nodeParent":146,
                     "label":"Image(diamonds11)",
                     "isDirectory":false,
                     "isAniNode":true,
@@ -682,7 +931,7 @@
         {
             "x":15,
             "type":"Image",
-            "props":{"y":0,"x":0,"skin":"pageImg/bg2.png","name":"kuang"},
+            "props":{"y":0,"x":0,"width":1920,"skin":"pageImg/bg2.png","name":"kuang","mouseThrough":true,"height":1200},
             "nodeParent":1,
             "label":"Image(kuang)",
             "isDirectory":false,
@@ -691,6 +940,7 @@
             "compId":3,
             "child":[
                 ],
+            "$LOCKED":true,
             "$HIDDEN":false
         }],
     "animations":[
@@ -938,9 +1188,18 @@
                 {
                     "target":66,
                     "keyframes":{
+                        "y":[
+                            {
+                                "value":395,
+                                "tweenMethod":"linearNone",
+                                "tween":true,
+                                "target":66,
+                                "key":"y",
+                                "index":0
+                            }],
                         "x":[
                             {
-                                "value":0,
+                                "value":275,
                                 "tweenMethod":"linearNone",
                                 "tween":true,
                                 "target":66,
@@ -1062,7 +1321,7 @@
                             }]
                     }
                 }],
-            "name":"ani5",
+            "name":"cloud1",
             "id":5,
             "frameRate":24,
             "action":2
@@ -1070,1473 +1329,212 @@
         {
             "nodes":[
                 {
-                    "target":70,
+                    "target":164,
                     "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":70,
-                                "key":"x",
-                                "index":0
-                            }],
                         "skin":[
                             {
-                                "value":"pageImg/yun0.png",
+                                "value":"pageImg/yun14.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
-                                "target":70,
+                                "target":164,
                                 "key":"skin",
                                 "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":70,
-                                "key":"skin",
-                                "index":55
                             },
                             {
                                 "value":"pageImg/yun13.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
-                                "target":70,
+                                "target":164,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
                                 "key":"skin",
                                 "index":60
                             },
                             {
-                                "value":"pageImg/yun14.png",
+                                "value":"pageImg/yun1.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
-                                "target":70,
+                                "target":164,
                                 "key":"skin",
                                 "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":164,
+                                "key":"skin",
+                                "index":70
                             }]
                     }
                 }],
-            "name":"ani5_0",
+            "name":"cloud2",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":72,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":72,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":72,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_1",
+                ],
+            "name":"cloud3",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":74,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":74,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":74,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_2",
+                ],
+            "name":"cloud4",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":76,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":76,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":76,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_3",
+                ],
+            "name":"cloud5",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":78,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":78,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":78,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_4",
+                ],
+            "name":"cloud6",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":80,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":80,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":80,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_5",
+                ],
+            "name":"cloud7",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":82,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":82,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":82,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_6",
+                ],
+            "name":"cloud8",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":84,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":84,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":84,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_7",
+                ],
+            "name":"cloud9",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":86,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":86,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":86,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_8",
+                ],
+            "name":"cloud10",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":88,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":88,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":88,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_9",
+                ],
+            "name":"cloud11",
             "id":5,
             "frameRate":24,
             "action":2
         },
         {
             "nodes":[
-                {
-                    "target":92,
-                    "keyframes":{
-                        "x":[
-                            {
-                                "value":0,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":92,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":92,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
-            "name":"ani5_10",
+                ],
+            "name":"cloud12",
             "id":5,
             "frameRate":24,
             "action":2
