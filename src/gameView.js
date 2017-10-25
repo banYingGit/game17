@@ -40,7 +40,7 @@ var GameView = (function (_super) {
         Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
         //本次训练结束退出（实际是下一等级）
 
-        this.goStep.on(Laya.Event.CLICK, this, this.goStepClick);
+        this.levelOut.on(Laya.Event.CLICK, this, this.outClick);
     };
 
     GameView.prototype.loading = function () {
@@ -172,19 +172,6 @@ var GameView = (function (_super) {
         }
     };
 
-    GameView.prototype.goStepClick = function () {
-
-        this.clickNum = 0;
-        this.score = 0;
-
-        this.screen4.visible = false;
-        this.screen3.visible = true;
-
-        this.setDiamonds()
-
-    }
-
-
     GameView.prototype.getResult = function (el) {
 
         var $this = this
@@ -204,8 +191,9 @@ var GameView = (function (_super) {
                 Laya.timer.clearAll(this)
 
                 //当前等级
-                this.level = this.level + 1;
-
+                if (this.level < 9) {
+                    this.level = this.level + 1;
+                }
 
                 this.changeVal()
 
@@ -222,7 +210,8 @@ var GameView = (function (_super) {
         } else {
             console.log('点击错误')
         }
-    }
+    };
+
     GameView.prototype.setScreen4 = function () {
 
         //钻石移动
@@ -239,9 +228,17 @@ var GameView = (function (_super) {
         }, 1000, null, false, true);
 
         this.levelScoreBox.text = '得分：' + this.score
+        if (this.level >= 9) {
+            this.maxLevel.visible = true
+
+        }
 
     }
+    //游戏退出
+    GameView.prototype.outClick = function () {
 
+
+    }
 
     //改变等级变量值
     GameView.prototype.changeVal = function () {
@@ -307,7 +304,6 @@ var GameView = (function (_super) {
         }
         return return_array;
     }
-
 
     return GameView;
 

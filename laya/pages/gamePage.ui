@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"View",
-    "selectedBox":174,
-    "selecteID":180,
+    "selectedBox":1,
+    "selecteID":189,
     "props":{"width":1920,"sceneColor":"#000000","height":1200},
     "nodeParent":-1,
     "label":"View",
@@ -899,14 +899,13 @@
             "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screen4","height":1200},
             "nodeParent":1,
             "label":"Box(screen4)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":174,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "props":{"y":194,"x":272,"skin":"pageImg/screen4Text.png"},
                     "nodeParent":174,
@@ -920,7 +919,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Text",
                     "props":{"y":290,"x":703,"width":500,"text":"本次训练结束","fontSize":80,"font":"Microsoft YaHei","color":"#2b4651","bold":true,"align":"center"},
                     "nodeParent":174,
@@ -933,7 +931,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Text",
                     "props":{"y":417,"x":553,"width":800,"var":"levelScoreBox","text":"得分:","fontSize":70,"font":"Microsoft YaHei","color":"#2b4651","align":"center"},
                     "nodeParent":174,
@@ -946,11 +943,10 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
-                    "props":{"y":738,"x":733,"var":"goStep","skin":"pageImg/btn1.png"},
+                    "props":{"y":738,"x":733,"var":"levelOut","skin":"pageImg/btn1.png"},
                     "nodeParent":174,
-                    "label":"Image(goStep)",
+                    "label":"Image(levelOut)",
                     "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
@@ -971,19 +967,17 @@
                         }]
                 },
                 {
-                    "x":30,
                     "type":"Box",
                     "props":{"y":582,"x":449.5,"var":"levelLoadBox"},
                     "nodeParent":174,
                     "label":"Box(levelLoadBox)",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
                     "compId":183,
                     "child":[
                         {
-                            "x":45,
                             "type":"Circle",
                             "props":{"y":46,"x":952,"radius":40,"lineWidth":1,"fillColor":"#ffffff"},
                             "nodeParent":183,
@@ -996,7 +990,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "props":{"y":30,"x":50,"width":900,"skin":"pageImg/loading1.png","height":35},
                             "nodeParent":183,
@@ -1009,7 +1002,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "props":{"y":35,"x":55,"width":0,"var":"levelLoad","skin":"pageImg/loading2.png","height":25},
                             "nodeParent":183,
@@ -1022,7 +1014,6 @@
                                 ]
                         },
                         {
-                            "x":45,
                             "type":"Image",
                             "props":{"y":0,"x":0,"var":"levelLoadD","skin":"pageImg/diamonds_b.png"},
                             "nodeParent":183,
@@ -1037,11 +1028,10 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Text",
-                    "props":{"y":529,"x":552.5,"width":800,"visible":false,"text":"恭喜你完成本测验最高难度","fontSize":45,"font":"Microsoft YaHei","color":"#e7630c","bold":true,"align":"center"},
+                    "props":{"y":529,"x":552.5,"width":800,"visible":false,"var":"maxLevel","text":"恭喜你完成本测验最高难度","fontSize":45,"font":"Microsoft YaHei","color":"#e7630c","bold":true,"align":"center"},
                     "nodeParent":174,
-                    "label":"Text",
+                    "label":"Text(maxLevel)",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
@@ -1049,7 +1039,134 @@
                     "child":[
                         ]
                 }],
-            "$HIDDEN":false
+            "$HIDDEN":true
+        },
+        {
+            "x":15,
+            "type":"Box",
+            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screenStop","height":1200},
+            "nodeParent":1,
+            "label":"Box(screenStop)",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":189,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":204,"x":282,"skin":"pageImg/screen4Text.png"},
+                    "nodeParent":189,
+                    "label":"Image",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":190,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":371,"x":394,"var":"continue","skin":"pageImg/btnBg1.png"},
+                    "nodeParent":189,
+                    "label":"Image(continue)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":194,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":20,"x":0,"width":500,"text":"继 续","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
+                            "nodeParent":194,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":198,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":371,"x":1016,"var":"restart","skin":"pageImg/btnBg2.png"},
+                    "nodeParent":189,
+                    "label":"Image(restart)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":195,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":20,"x":0,"width":500,"text":"从新开始","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
+                            "nodeParent":195,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":199,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":611,"x":403,"var":"help","skin":"pageImg/btnBg3.png"},
+                    "nodeParent":189,
+                    "label":"Image(help)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":196,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":20,"x":0,"width":500,"text":"帮 助","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
+                            "nodeParent":196,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":200,
+                            "child":[
+                                ]
+                        }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":610.5,"x":1016,"var":"out","skin":"pageImg/btnBg4.png"},
+                    "nodeParent":189,
+                    "label":"Image(out)",
+                    "isOpen":false,
+                    "isDirectory":true,
+                    "isAniNode":true,
+                    "hasChild":true,
+                    "compId":197,
+                    "child":[
+                        {
+                            "type":"Text",
+                            "props":{"y":20,"x":0,"width":500,"text":"退 出","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
+                            "nodeParent":197,
+                            "label":"Text",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":201,
+                            "child":[
+                                ]
+                        }]
+                }]
         },
         {
             "x":15,

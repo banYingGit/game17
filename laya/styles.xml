@@ -63,4 +63,8 @@
    <item name="pageImg/mountain4.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/screen2Text.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
    <item name="pageImg/screen4Text.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/btn_bg1.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/btn_bg2.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/btn_bg3.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="pageImg/btn_bg4.png" type="Button" compress="0" pack="1" quality="80" props="" picType="0"/>
 </res>
