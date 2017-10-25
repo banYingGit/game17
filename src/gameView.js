@@ -11,7 +11,6 @@ var GameView = (function (_super) {
 
     Laya.class(GameView, "GameView", _super);
 
-    var animateDiamonds, animateDiamondsShow;
     GameView.prototype.init = function () {
 
 
@@ -22,20 +21,26 @@ var GameView = (function (_super) {
         //当前倒计时时间
         this.time = 300;
         //云朵数量
-        this.cloudNum = this.level + 2
+        this.cloudNum = 3;
         //混淆数量
         this.affectNUm = 0
         //当前得分
         this.score = 0
         //钻石显示时间
         this.speed = 1500
+        this.skinD = 'diamondsB'
 
 
         this.loading();
         //游戏开始按钮
         this.startButton.on(Laya.Event.CLICK, this, this.startButtonClick);
+        //下一步
         this.nextStep.on(Laya.Event.CLICK, this, this.nextStepClick);
+        //点击钻石
         Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
+        //本次训练结束退出（实际是下一等级）
+
+        this.goStep.on(Laya.Event.CLICK, this, this.goStepClick);
     };
 
     GameView.prototype.loading = function () {
@@ -75,36 +80,45 @@ var GameView = (function (_super) {
     }
 
     GameView.prototype.setDiamonds = function () {
-        var arrTwelve = [], $arr = [], $affectNUm = [], $this = this, $el = this.screen3
+
+        console.log('等级：', this.level, '云朵数量：', this.cloudNum, '混淆数量：', this.affectNUm, '速度：', this.speed)
+
+        this.scoreBox.text = 0
+
+        var arrTwelve = [], $cloudArr = [], $affectNUm = [];
+
         for (var i = 0; i < 12; i++) {
             arrTwelve.push(i)
         }
 
+        $cloudArr = this.getArrayItems(arrTwelve, this.cloudNum)
 
-        $arr = this.getArrayItems(arrTwelve, this.cloudNum)
+        $affectNUm = this.getArrayItems($cloudArr, this.affectNUm)
 
-        $affectNUm = $this.getArrayItems($arr, $this.affectNUm)
+        this.animateDiamondsfn($cloudArr, $affectNUm)
 
 
-        console.log('$arr', $arr)
-        console.log('$affectNUm', $affectNUm)
-        var n = 0, i = 0, $diamonds, $skin = 'diamondsB'
+    };
+    var animateDiamonds;
+
+    GameView.prototype.animateDiamondsfn = function ($cloudArr, $affectNUm) {
+
+        var $this = this, $diamonds, i = 0, $el = this.screen3, animateDiamondsShow, n = 0;
 
         animateDiamonds = function () {
 
-            Laya.timer.clear($this, animateDiamondsShow)
+            i = ( i + 1 ) < this.cloudNum ? (i + 1 ) : 1
 
-            if (this.clickNum > 4) return
+            $diamonds = $el.getChildByName("diamonds" + $cloudArr[i - 1]);
 
-            i = ( i + 1 ) <= this.cloudNum ? (i + 1 ) : 1
+            console.log('$cloudArr', $cloudArr)
+            console.log('$affectNUm', $affectNUm)
 
-            $diamonds = $el.getChildByName("diamonds" + $arr[i - 1]);
-
-            if ($affectNUm.indexOf($arr[i - 1]) != -1) {
-                $skin = 'diamondsG'
+            if ($affectNUm.indexOf($cloudArr[i - 1]) != -1) {
+                this.skinD = 'diamondsG'
                 $diamonds.value = false
             } else {
-                $skin = 'diamondsB'
+                this.skinD = 'diamondsB'
                 $diamonds.value = true
             }
             // console.log('$skin', $skin)
@@ -112,11 +126,9 @@ var GameView = (function (_super) {
             $diamonds.alpha = 1;
             $diamonds.mouseEnabled = true
             n = 0;
+
             Laya.timer.loop(Math.floor($this.speed / 41), $this, animateDiamondsShow)
-
-
-        };
-
+        }
         animateDiamondsShow = function () {
 
             if (n < 40) {
@@ -125,14 +137,12 @@ var GameView = (function (_super) {
                 n = 0
                 Laya.timer.clear($this, animateDiamondsShow)
             }
-            $diamonds.skin = '../laya/assets/pageImg/' + $skin + n + '.png'
+            $diamonds.skin = '../laya/assets/pageImg/' + this.skinD + n + '.png'
         };
 
-        animateDiamonds()
+
         Laya.timer.loop(this.speed, this, animateDiamonds)
-
-
-    };
+    }
 
     GameView.prototype.diamondsClick = function (e) {
 
@@ -142,9 +152,7 @@ var GameView = (function (_super) {
 
             var $el = e.target
 
-            Laya.timer.clear(this, animateDiamondsShow)
-
-            Laya.timer.clear(this, animateDiamonds)
+            Laya.timer.clearAll(this)
 
             $el.mouseEnabled = false
             Laya.Tween.to($el, {
@@ -154,15 +162,28 @@ var GameView = (function (_super) {
             }, 200, null, Laya.Handler.create(this, function () {
 
                 $el.skin = '../laya/assets/pageImg/diamondsB0.png'
-                $this.getResult($el)
 
                 Laya.timer.loop(this.speed, $this, animateDiamonds)
 
+                $this.getResult($el)
 
             }), false, true);
 
         }
     };
+
+    GameView.prototype.goStepClick = function () {
+
+        this.clickNum = 0;
+        this.score = 0;
+
+        this.screen4.visible = false;
+        this.screen3.visible = true;
+
+        this.setDiamonds()
+
+    }
+
 
     GameView.prototype.getResult = function (el) {
 
@@ -180,18 +201,14 @@ var GameView = (function (_super) {
 
             if (this.clickNum > 4) {
 
-                Laya.timer.clear(this, animateDiamondsShow)
-
-                Laya.timer.clear(this, animateDiamonds)
+                Laya.timer.clearAll(this)
 
                 //当前等级
                 this.level = this.level + 1;
 
-                //云朵数量
-                this.cloudNum = this.level + 2
 
                 this.changeVal()
-                console.log('等级：', this.level, '云朵数量：', this.cloudNum, '混淆数量：', this.affectNUm, '速度：', this.speed)
+
                 setTimeout(function () {
 
                     $this.screen3.visible = false
@@ -224,27 +241,41 @@ var GameView = (function (_super) {
         this.levelScoreBox.text = '得分：' + this.score
 
     }
+
+
     //改变等级变量值
     GameView.prototype.changeVal = function () {
 
         if (this.level <= 2) {
             this.affectNUm = 0
-        } else if (this.level <= 4 && this.level > 2) {
+        } else if (this.level == 3) {
             this.affectNUm = 2
-        } else if (this.level <= 6 && this.level > 4) {
+        } else if (this.level <= 5 && this.level > 3) {
             this.affectNUm = 3
-        } else if (this.level <= 8 && this.level > 6) {
+        } else if (this.level <= 7 && this.level > 5) {
             this.affectNUm = 4
-        } else if (this.level <= 10 && this.level > 8) {
+        } else if (this.level <= 9 && this.level > 7) {
             this.affectNUm = 5
         }
-        if (this.level <= 4) {
+        if (this.level <= 3) {
             this.speed = 1500
-        } else if (this.level <= 7 && this.level > 4) {
+        } else if (this.level <= 6 && this.level > 3) {
             this.affectNUm = 1000
         }
-        else if (this.level <= 10 && this.level > 7) {
+        else if (this.level <= 9 && this.level > 6) {
             this.affectNUm = 800
+        }
+
+        //this.level=3时 是6个云
+        if (this.level == 1) {
+            this.cloudNum = 3
+
+        } else if (this.level == 2) {
+
+            this.cloudNum = 4
+        }
+        else if (this.level > 2 && this.level <= 9) {
+            this.cloudNum = this.level + 3
         }
 
     }
