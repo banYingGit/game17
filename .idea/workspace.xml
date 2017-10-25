@@ -2,227 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2baa30-bec2-4c55-b7bf-0ae91a484e49" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/game17.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.laya/astool/debug.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.laya/astool/layajs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.laya/astool/layajs.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.laya/launch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.laya/tasks.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/LayaRender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.ani.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.d3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.d3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.d3Plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.debugtool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.device.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.particle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.pathfinding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.tiledmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/laya.webgl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/matter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.ani.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.d3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.d3Plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.debugtool.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.device.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.filter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.html.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.particle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.pathfinding.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.tiledmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/min/laya.webgl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/protobuf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/libs/worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pageImg/rbCloud9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/comp.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/comp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/comp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloud/rb.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloud/rb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloud/rb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloudRb.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloudRb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/cloudRb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/rbCloud.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/rbCloud.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg/rbCloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg1~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg2~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg3~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg4~.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/atlas/rec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/unpack.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/.laya" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/btn_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/checkbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/clip_num.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/clip_selectBox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/clip_tree_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/clip_tree_folder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/combobox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hscroll$bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hscroll$down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hscroll$up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hscroll.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hslider$bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/hslider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/html.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/label.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/linkbutton.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/progress$bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/radio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/radiogroup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/textarea.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/textinput.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vscroll$bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vscroll$down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vscroll$up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vscroll.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vslider$bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/comp/vslider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/bg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/btn1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/button1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/button2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/button3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamondsB9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamonds_b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/diamonds_g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/fixedCloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/loading1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/loading2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mlCloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mountain1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mountain2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mountain3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mountain4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/mrCloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rtCloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/screen2Text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/textScore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/textTime.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/yun9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/pages/gamePage.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/pages/screen1.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/pages/screen2.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/pages/screen3.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/LayaAir.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myLaya.laya" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/GameViewOne.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/GameViewThree.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/GameViewTwo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gameView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ui/layaUI.max.all.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gameView.js" afterPath="$PROJECT_DIR$/src/gameView.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -240,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="95">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -250,25 +34,10 @@
       <file leaf-file-name="gameView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gameView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="543">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#643#897#0" expanded="false" />
-                <element signature="e#1473#2578#0" expanded="false" />
-                <element signature="e#2640#3131#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameViewThree.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameViewThree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
-              <folding>
-                <element signature="e#536#1610#0" expanded="false" />
-                <element signature="e#1677#2168#0" expanded="false" />
+                <element signature="e#3322#3813#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -471,7 +240,7 @@
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/dice" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -570,7 +339,7 @@
       <updated>1508742570120</updated>
       <workItem from="1508742571714" duration="6185000" />
       <workItem from="1508802787566" duration="20291000" />
-      <workItem from="1508894063605" duration="1560000" />
+      <workItem from="1508894063605" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="load">
       <created>1508749252315</created>
@@ -586,20 +355,28 @@
       <option name="project" value="LOCAL" />
       <updated>1508749273418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="load">
+      <created>1508896998961</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508896998961</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28036000" />
+    <option name="totallyTimeSpent" value="31661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377032" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18851571" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,7 +385,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,11 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
           <caret line="61" column="44" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="61" selection-end-column="44" />
-          <folding>
-            <element signature="e#411#665#0" expanded="false" />
-            <marker date="1508781702000" expanded="true" signature="230:354" ph="{...}" />
-            <marker date="1508781702000" expanded="true" signature="1063:1118" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,9 +447,7 @@
         <state relative-caret-position="483">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="69" />
           <folding>
-            <element signature="e#643#897#0" expanded="false" />
-            <element signature="e#1473#2578#0" expanded="false" />
-            <element signature="e#2640#3131#0" expanded="false" />
+            <element signature="e#3322#3813#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -686,10 +456,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2037">
           <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="e#536#1610#0" expanded="false" />
-            <element signature="e#1677#2168#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,9 +500,7 @@
         <state relative-caret-position="609">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#643#897#0" expanded="false" />
-            <element signature="e#1473#2578#0" expanded="false" />
-            <element signature="e#2640#3131#0" expanded="false" />
+            <element signature="e#3322#3813#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,14 +514,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/res/atlas/ui.json" />
     <entry file="file://$PROJECT_DIR$/src/LayaSample.js" />
-    <entry file="file://$PROJECT_DIR$/libs/LayaAir.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25786" column="8" lean-forward="false" selection-start-line="25786" selection-start-column="8" selection-end-line="25786" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -780,11 +537,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#411#665#0" expanded="false" />
-            <marker date="1508781702000" expanded="true" signature="230:354" ph="{...}" />
-            <marker date="1508781702000" expanded="true" signature="1063:1118" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,33 +549,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameViewThree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="e#536#1610#0" expanded="false" />
-            <element signature="e#1677#2168#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/LayaAir.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="25829" column="10" lean-forward="false" selection-start-line="25829" selection-start-column="10" selection-end-line="25829" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gameView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="543">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#643#897#0" expanded="false" />
-            <element signature="e#1473#2578#0" expanded="false" />
-            <element signature="e#2640#3131#0" expanded="false" />
+            <element signature="e#3322#3813#0" expanded="false" />
           </folding>
         </state>
       </provider>

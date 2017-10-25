@@ -18,7 +18,6 @@ var GameView = (function (_super) {
         //游戏开始按钮
         this.startButton.on(Laya.Event.CLICK, this, this.startButtonClick);
         this.nextStep.on(Laya.Event.CLICK, this, this.nextStepClick);
-        // // this.diamonds.on(Laya.Event.CLICK, this, this.diamondsClick);
         Laya.stage.on(Laya.Event.CLICK, this, this.diamondsClick);
     };
 
@@ -63,7 +62,6 @@ var GameView = (function (_super) {
         this.setDiamonds()
     }
 
-
     GameView.prototype.setDiamonds = function () {
         var arrTwelve = [], arrThree = [], $this = this
         for (var i = 0; i < 12; i++) {
@@ -77,37 +75,74 @@ var GameView = (function (_super) {
 
             $el = this.screen3
 
-        var n = 0, $diamonds
+        var n = 0, i = 0, $diamonds
 
         animateDiamonds = function () {
 
+            console.log('------------------')
             Laya.timer.clear($this, animateDiamondsShow)
 
-            var $index = $this.getArrayItems(arrThree, 1)
-            console.log('$index', $index)
-            $diamonds = $el.getChildByName("diamonds" + $arr[$index[0]]);
+            i = ( i + 1 ) <= 3 ? (i + 1 ) : 1
+
+            $diamonds = $el.getChildByName("diamonds" + $arr[i - 1]);
 
             $diamonds.visible = true;
-
+            $diamonds.alpha = 1;
+            n = 0
             Laya.timer.loop(49, $this, animateDiamondsShow)
+
 
         };
 
         animateDiamondsShow = function () {
+
             if (n < 40) {
                 n = n + 1
             } else {
                 n = 0
                 Laya.timer.clear($this, animateDiamondsShow)
             }
-
+            console.log('nnnnnnnnnnn', n)
             $diamonds.skin = '../laya/assets/pageImg/diamondsB' + n + '.png'
-        }
+        };
+
         animateDiamonds()
         Laya.timer.loop(2000, this, animateDiamonds)
 
 
     };
+
+    GameView.prototype.diamondsClick = function (e) {
+
+        var elm = e.target.name, $this = this;
+
+        if (elm.indexOf("diamonds") != -1) {
+
+            var $el = e.target
+
+            Laya.timer.clear(this, animateDiamondsShow)
+
+            Laya.timer.clear(this, animateDiamonds)
+
+            Laya.Tween.to($el, {
+
+                alpha: 0
+
+            }, 500, null, Laya.Handler.create(this, function () {
+
+                $el.skin = '../laya/assets/pageImg/diamondsB0.png'
+
+                setTimeout(function () {
+
+                    Laya.timer.loop(2000, $this, animateDiamonds)
+
+                }, 0)
+
+            }), false, true);
+
+        }
+    };
+
 
     GameView.prototype.getArrayItems = function (arr, num) {
 
@@ -135,18 +170,6 @@ var GameView = (function (_super) {
             }
         }
         return return_array;
-    }
-    GameView.prototype.diamondsClick = function (e) {
-
-        var elm = e.target.name;
-
-        console.log('elm', elm, e)
-
-        if (elm.indexOf("investBtn") != -1) {
-            // 投注按钮 -->投注金豆事件
-            // this.investClick(e)
-
-        }
     }
 
 
