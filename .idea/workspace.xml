@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a2baa30-bec2-4c55-b7bf-0ae91a484e49" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/laya/assets/pageImg/rbCloud9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg3~.png" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg3~.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg4~.png" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg4~.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg5~.png" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg5~.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/rec" afterPath="$PROJECT_DIR$/bin/res/atlas/rec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laya/pages/gamePage.ui" afterPath="$PROJECT_DIR$/laya/pages/gamePage.ui" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/index.html" afterPath="$PROJECT_DIR$/bin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.atlas" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg.atlas" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/atlas/pageImg.json" afterPath="$PROJECT_DIR$/bin/res/atlas/pageImg.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/unpack.json" afterPath="$PROJECT_DIR$/bin/unpack.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gameView.js" afterPath="$PROJECT_DIR$/src/gameView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/layaUI.max.all.js" afterPath="$PROJECT_DIR$/src/ui/layaUI.max.all.js" />
     </list>
@@ -20,32 +43,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/index.html">
+      <file leaf-file-name="gameView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gameView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="415">
+              <caret line="111" column="18" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+              <folding>
+                <element signature="e#1632#1803#0" expanded="false" />
+                <element signature="e#7480#7867#0" expanded="false" />
+                <element signature="e#9667#10614#0" expanded="false" />
+                <element signature="e#10675#11166#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameView.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/gameView.js">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-              <folding>
-                <element signature="e#1221#1474#0" expanded="false" />
-                <element signature="e#1525#1696#0" expanded="false" />
-                <element signature="e#1751#1833#0" expanded="false" />
-                <element signature="e#2046#2526#0" expanded="false" />
-                <element signature="e#2630#3903#0" expanded="false" />
-                <element signature="e#3957#4510#0" expanded="false" />
-                <element signature="e#5378#5765#0" expanded="false" />
-                <element signature="e#5968#5977#0" expanded="false" />
-                <element signature="e#7048#7539#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +80,9 @@
       <find>Score</find>
       <find>changeVal</find>
       <find>score</find>
+      <find>countDownFn</find>
+      <find>Laya.timer.loop(this.speed</find>
+      <find>animateDiamonds()</find>
     </findStrings>
     <replaceStrings>
       <replace>GameViewOne</replace>
@@ -70,6 +91,7 @@
       <replace>this.animateDiamondsFn</replace>
       <replace>this.animateDiamondsShowFn</replace>
       <replace>score</replace>
+      <replace>Laya.timer.loop(1000</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -82,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/GameViewOne.js" />
         <option value="$PROJECT_DIR$/src/GameViewTwo.js" />
         <option value="$PROJECT_DIR$/src/GameViewThree.js" />
-        <option value="$PROJECT_DIR$/bin/index.html" />
         <option value="$PROJECT_DIR$/src/game.js" />
+        <option value="$PROJECT_DIR$/bin/index.html" />
         <option value="$PROJECT_DIR$/src/gameView.js" />
       </list>
     </option>
@@ -239,8 +261,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +278,7 @@
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/dice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../game10" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -358,7 +380,8 @@
       <updated>1508742570120</updated>
       <workItem from="1508742571714" duration="6185000" />
       <workItem from="1508802787566" duration="20291000" />
-      <workItem from="1508894063605" duration="22708000" />
+      <workItem from="1508894063605" duration="22788000" />
+      <workItem from="1508975637422" duration="12559000" />
     </task>
     <task id="LOCAL-00001" summary="load">
       <created>1508749252315</created>
@@ -423,29 +446,36 @@
       <option name="project" value="LOCAL" />
       <updated>1508921237735</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="等级一">
+      <created>1508922156297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1508922156297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49184000" />
+    <option name="totallyTimeSpent" value="61823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18851571" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29035753" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30444205" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -490,46 +520,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameViewOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="61" selection-end-column="44" />
+        <state relative-caret-position="462">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gameView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="5922">
+          <caret line="282" column="0" lean-forward="true" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
           <folding>
-            <element signature="e#1221#1474#0" expanded="false" />
-            <element signature="e#1525#1696#0" expanded="false" />
-            <element signature="e#1751#1833#0" expanded="false" />
-            <element signature="e#2046#2526#0" expanded="false" />
-            <element signature="e#2630#3903#0" expanded="false" />
-            <element signature="e#3957#4510#0" expanded="false" />
-            <element signature="e#5378#5765#0" expanded="false" />
-            <element signature="e#5968#5977#0" expanded="false" />
-            <element signature="e#7048#7539#0" expanded="false" />
+            <element signature="e#1632#1803#0" expanded="false" />
+            <element signature="e#7480#7867#0" expanded="false" />
+            <element signature="e#9667#10614#0" expanded="false" />
+            <element signature="e#10675#11166#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameViewThree.js">
+    <entry file="file://$PROJECT_DIR$/bin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="861">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameViewOne.js" />
+    <entry file="file://$PROJECT_DIR$/src/gameView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="e#1632#1803#0" expanded="false" />
+            <element signature="e#7480#7867#0" expanded="false" />
+            <element signature="e#9667#10614#0" expanded="false" />
+            <element signature="e#10675#11166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameViewThree.js" />
     <entry file="file://$PROJECT_DIR$/bin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -558,10 +590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <marker date="1508921572611" expanded="true" signature="134:18010" ph="{...}" />
-            <marker date="1508921572611" expanded="true" signature="159:198" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,15 +599,10 @@
         <state relative-caret-position="609">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#1221#1474#0" expanded="false" />
-            <element signature="e#1525#1696#0" expanded="false" />
-            <element signature="e#1751#1833#0" expanded="false" />
-            <element signature="e#2046#2526#0" expanded="false" />
-            <element signature="e#2630#3903#0" expanded="false" />
-            <element signature="e#3957#4510#0" expanded="false" />
-            <element signature="e#5378#5765#0" expanded="false" />
-            <element signature="e#5968#5977#0" expanded="false" />
-            <element signature="e#7048#7539#0" expanded="false" />
+            <element signature="e#1632#1803#0" expanded="false" />
+            <element signature="e#7480#7867#0" expanded="false" />
+            <element signature="e#9667#10614#0" expanded="false" />
+            <element signature="e#10675#11166#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -596,49 +620,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <marker date="1508921572611" expanded="true" signature="134:18010" ph="{...}" />
-            <marker date="1508921572611" expanded="true" signature="159:198" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameViewOne.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameViewTwo.js">
+    <entry file="file://$PROJECT_DIR$/src/GameViewOne.js" />
+    <entry file="file://$PROJECT_DIR$/src/GameViewTwo.js" />
+    <entry file="file://$PROJECT_DIR$/src/GameViewThree.js" />
+    <entry file="file://$PROJECT_DIR$/libs/LayaAir.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameViewThree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="63" />
+        <state relative-caret-position="223">
+          <caret line="25829" column="10" lean-forward="false" selection-start-line="25829" selection-start-column="10" selection-end-line="25829" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/LayaAir.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25829" column="10" lean-forward="false" selection-start-line="25829" selection-start-column="10" selection-end-line="25829" selection-end-column="10" />
+        <state relative-caret-position="396">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -653,18 +653,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gameView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+        <state relative-caret-position="415">
+          <caret line="111" column="18" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
           <folding>
-            <element signature="e#1221#1474#0" expanded="false" />
-            <element signature="e#1525#1696#0" expanded="false" />
-            <element signature="e#1751#1833#0" expanded="false" />
-            <element signature="e#2046#2526#0" expanded="false" />
-            <element signature="e#2630#3903#0" expanded="false" />
-            <element signature="e#3957#4510#0" expanded="false" />
-            <element signature="e#5378#5765#0" expanded="false" />
-            <element signature="e#5968#5977#0" expanded="false" />
-            <element signature="e#7048#7539#0" expanded="false" />
+            <element signature="e#1632#1803#0" expanded="false" />
+            <element signature="e#7480#7867#0" expanded="false" />
+            <element signature="e#9667#10614#0" expanded="false" />
+            <element signature="e#10675#11166#0" expanded="false" />
           </folding>
         </state>
       </provider>

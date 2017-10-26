@@ -15,8 +15,8 @@ var GameView = (function (_super) {
 
         //当前等级
         this.level = 1;
-        //当前倒计时时间 120秒*1000
-        this.time = 120000;
+        //当前倒计时时间 120秒/1000
+        this.time = 20;
         this.scoreSum = 0;
 
         /***this.changeVal()
@@ -48,6 +48,10 @@ var GameView = (function (_super) {
 
         //暂停
         this.stopBtn.on(Laya.Event.CLICK, this, this.stopClick);
+        //暂停界面 -> 继续
+        this.continue.on(Laya.Event.CLICK, this, this.continueClick);
+
+        //结算界面游戏退出
         this.levelOut.on(Laya.Event.CLICK, this, this.outClick);
     };
 
@@ -78,22 +82,64 @@ var GameView = (function (_super) {
 
     }
     GameView.prototype.startButtonClick = function () {
-        this.screen1.visible = false;
-        this.screen2.visible = true;
+
+        var $this = this
+        Laya.Tween.to(this.mountainAn1, {
+
+            y: 200,
+
+            alpha: 1
+
+        }, 5000, null, false, true);
+
+        setTimeout(function () {
+            $this.screen1.visible = false;
+            $this.screen2.visible = true;
+        }, 500)
     };
     GameView.prototype.nextStepClick = function () {
-        this.screen2.visible = false;
-        this.screen3.visible = true;
-        this.setDiamonds()
+
+        var $this = this
+
+        Laya.Tween.to(this.mountainAn1, {
+
+            y: 100
+
+        }, 5000, null, false, true);
+
+        Laya.Tween.to(this.mountainAn2, {
+
+            y: 650,
+            alpha: 1
+
+        }, 5000, null, false, true);
+
+        setTimeout(function () {
+
+            $this.screen2.visible = false;
+            $this.screen3.visible = true;
+            $this.setDiamonds()
+
+        }, 500)
+
+        setTimeout(function () {
+
+            $this.countDown($this.time, function () {
+                console.log('倒计时结束')
+                $this.countDownFn()
+
+            })
+
+        }, 1500)
     }
 
     GameView.prototype.setDiamonds = function () {
 
         console.log('等级：', this.level, '云朵数量：', this.cloudNum, '混淆数量：', this.affectNUm, '速度：', this.speed)
 
-        this.scoreBox.text = 0
+        this.clickNum = 0
 
-        var arrTwelve = [], $cloudArr = [], $affectNUm = [];
+        var arrTwelve = [], $cloudArr = [], $affectNUm = [], $this = this;
 
         for (var i = 0; i < 12; i++) {
             arrTwelve.push(i)
@@ -107,22 +153,23 @@ var GameView = (function (_super) {
 
 
     };
-    var animateDiamonds;
+    var animateDiamonds, animateDiamondsI = 0;
 
     GameView.prototype.animateDiamondsfn = function ($cloudArr, $affectNUm) {
 
-        var $this = this, $diamonds, i = 0, $el = this.screen3, animateDiamondsShow, n = 0;
+        var $this = this, $diamonds, $el = this.screen3, animateDiamondsShow, n = 0;
 
         animateDiamonds = function () {
 
-            i = ( i + 1 ) < this.cloudNum ? (i + 1 ) : 1
+            $diamonds = $el.getChildByName("diamonds" + $cloudArr[animateDiamondsI]);
 
-            $diamonds = $el.getChildByName("diamonds" + $cloudArr[i - 1]);
+            animateDiamondsI = animateDiamondsI < (this.cloudNum - 1) ? (animateDiamondsI + 1) : 0
 
+            console.log('animateDiamondsI', animateDiamondsI)
             console.log('$cloudArr', $cloudArr)
             console.log('$affectNUm', $affectNUm)
 
-            if ($affectNUm.indexOf($cloudArr[i - 1]) != -1) {
+            if ($affectNUm.indexOf($cloudArr[animateDiamondsI - 1]) != -1) {
                 this.skinD = 'diamondsG'
                 $diamonds.value = false
             } else {
@@ -190,32 +237,64 @@ var GameView = (function (_super) {
 
             this.score = this.score + 100 * this.level
 
-            this.scoreBox.text = this.score + this.scoreSum
+            this.scoreBox.text = this.score
 
             console.log('点击正确数', this.clickNum)
 
-            if (this.clickNum > 4) {
+            this.correctImg.visible = true;
+            var imgIndex = 0,
 
-                Laya.timer.clearAll(this)
+                correctFn = function () {
+                    imgIndex = imgIndex + 1
+                    $this.correctImg.skin = '../laya/assets/pageImg/correct' + imgIndex + '.png'
+                }
+            Laya.timer.loop(50, this, correctFn)
+            setTimeout(function () {
+                $this.correctImg.visible = false;
+                Laya.timer.clear($this, correctFn)
+            }, 950)
+
+            if (this.clickNum > 4) {
+                Laya.timer.clear(this, animateDiamonds)
 
                 //当前等级
                 if (this.level < 9) {
+
                     this.level = this.level + 1;
+                    this.changeVal();
+                    this.setDiamonds()
+
+                } else {
+                    clearInterval(autoTime)
+                    setTimeout(function () {
+
+                        $this.screen3.visible = false
+                        $this.screen4.visible = true
+                        $this.setScreen4()
+
+                    }, 1000)
+
                 }
 
-
-                setTimeout(function () {
-
-                    $this.screen3.visible = false
-                    $this.screen4.visible = true
-                    $this.setScreen4()
-
-                }, 1000)
 
             }
 
         } else {
             console.log('点击错误')
+
+            this.errorImg.visible = true
+
+            var imgIndex = 0,
+                errorFn = function () {
+                    imgIndex = imgIndex + 1
+                    $this.errorImg.skin = '../laya/assets/pageImg/error' + imgIndex + '.png'
+                }
+
+            Laya.timer.loop(50, this, errorFn)
+            setTimeout(function () {
+                $this.errorImg.visible = false;
+                Laya.timer.clear($this, errorFn)
+            }, 950)
         }
     };
 
@@ -247,12 +326,93 @@ var GameView = (function (_super) {
 
         this.screenStop.visible = true
         this.screen3.visible = false
+        clearInterval(autoTime)
+        Laya.timer.clear(this, animateDiamonds)
     };
+
+    //游戏暂停界面->继续
+    GameView.prototype.continueClick = function () {
+
+        // this.setDiamonds()
+        var $this = this, $time = this.timeBox.text;
+
+        this.screenStop.visible = false
+
+        this.screen3.visible = true
+
+        Laya.timer.loop(this.speed, $this, animateDiamonds)
+
+        this.countDown($time, function () {
+            console.log('倒计时结束')
+            $this.countDownFn()
+
+        })
+
+
+    }
     //游戏退出
     GameView.prototype.outClick = function () {
 
 
     }
+
+    //倒计时  
+    var autoTime
+
+    GameView.prototype.countDown = function (i, fn) {
+
+        var $this = this;
+
+        this.timeBox.text = i
+
+        var timeFn = function () {
+
+            i = i - 1
+
+            $this.timeBox.text = i
+
+            if (i == 0) {
+
+                clearInterval(autoTime)
+
+                fn && fn.call(this)
+
+            }
+
+        }
+
+        autoTime = setInterval(timeFn, 1000);
+    }
+
+    //到时间后回调
+    GameView.prototype.countDownFn = function () {
+
+        Laya.timer.clearAll(this)
+
+        var $this = this;
+
+        this.scoreBox.text = this.score + this.scoreSum
+
+        if (this.clickNum > 27) {
+
+            this.level = this.level < 9 ? this.level + 1 : 9
+
+        } else if (this.clickNum < 10 && (this.level == 1)) {
+
+            this.level = 1
+
+        } else if (this.clickNum < 25 && (this.level >= 2)) {
+
+            this.level = this.level + 1
+        }
+
+
+        $this.screen3.visible = false
+        $this.screen4.visible = true
+        $this.setScreen4()
+
+
+    };
 
     //改变等级变量值
     GameView.prototype.changeVal = function () {
