@@ -2,7 +2,7 @@
     "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":227,
+    "selecteID":250,
     "props":{"width":1920,"sceneColor":"#000000","height":1200},
     "nodeParent":-1,
     "label":"View",
@@ -31,17 +31,53 @@
         {
             "x":15,
             "type":"Box",
+            "props":{"y":0,"x":0,"width":1920,"var":"cloudAn1","height":1200,"alpha":0},
+            "nodeParent":1,
+            "label":"Box(cloudAn1)",
+            "isOpen":false,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":249,
+            "child":[
+                {
+                    "type":"Image",
+                    "props":{"y":447,"x":71,"skin":"pageImg/mlCloud.png"},
+                    "nodeParent":249,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":243,
+                    "child":[
+                        ]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":299,"x":651,"skin":"pageImg/mrCloud.png"},
+                    "nodeParent":249,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":244,
+                    "child":[
+                        ]
+                }]
+        },
+        {
+            "x":15,
+            "type":"Box",
             "props":{"y":800,"x":0,"var":"mountainAn1","alpha":0},
             "nodeParent":1,
             "label":"Box(mountainAn1)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":227,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "props":{"y":320,"x":165,"skin":"pageImg/mountain2.png"},
                     "nodeParent":227,
@@ -54,7 +90,6 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "props":{"skin":"pageImg/mountain1.png"},
                     "nodeParent":227,
@@ -74,16 +109,15 @@
             "props":{"y":1000,"x":25,"var":"mountainAn2","alpha":0},
             "nodeParent":1,
             "label":"Box(mountainAn2)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":230,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
-                    "props":{"y":145,"x":967,"skin":"pageImg/mountain4.png"},
+                    "props":{"y":115,"x":964,"skin":"pageImg/mountain4.png"},
                     "nodeParent":230,
                     "label":"Image",
                     "isOpen":true,
@@ -95,9 +129,8 @@
                         ]
                 },
                 {
-                    "x":30,
                     "type":"Image",
-                    "props":{"skin":"pageImg/mountain3.png"},
+                    "props":{"y":-36,"x":-2,"skin":"pageImg/mountain3.png"},
                     "nodeParent":230,
                     "label":"Image",
                     "isDirectory":false,
@@ -106,12 +139,65 @@
                     "compId":228,
                     "child":[
                         ]
+                }],
+            "$HIDDEN":false
+        },
+        {
+            "x":15,
+            "type":"Box",
+            "props":{"y":0,"x":0,"width":1920,"var":"cloudAn2","height":1200,"alpha":0},
+            "nodeParent":1,
+            "label":"Box(cloudAn2)",
+            "isOpen":true,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":250,
+            "child":[
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":822,"x":856,"skin":"pageImg/rbCloud0.png"},
+                    "nodeParent":250,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":254,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":967,"x":56,"skin":"pageImg/lbCloud.png"},
+                    "nodeParent":250,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":255,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":86,"x":1350,"skin":"pageImg/rtCloud.png"},
+                    "nodeParent":250,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":246,
+                    "child":[
+                        ]
                 }]
         },
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"visible":true,"var":"screen1"},
+            "props":{"y":0,"x":0,"var":"screen1","alpha":1},
             "nodeParent":1,
             "label":"Box(screen1)",
             "isOpen":false,
@@ -295,17 +381,16 @@
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screen2","height":1200},
+            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screen2","height":1200,"alpha":0},
             "nodeParent":1,
             "label":"Box(screen2)",
-            "isOpen":true,
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":147,
             "child":[
                 {
-                    "x":30,
                     "type":"Image",
                     "props":{"y":960,"x":775,"var":"nextStep","skin":"pageImg/btn1.png"},
                     "nodeParent":147,
@@ -331,7 +416,6 @@
                     "$HIDDEN":false
                 },
                 {
-                    "x":30,
                     "type":"Image",
                     "props":{"y":366,"x":469.5,"skin":"pageImg/screen2Text.png"},
                     "nodeParent":147,
@@ -344,7 +428,7 @@
                     "child":[
                         {
                             "type":"Box",
-                            "props":{"y":67,"x":277},
+                            "props":{"y":72,"x":289},
                             "nodeParent":153,
                             "label":"Box",
                             "isOpen":true,
@@ -355,7 +439,7 @@
                             "child":[
                                 {
                                     "type":"Text",
-                                    "props":{"text":"本训练提升您的","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "props":{"y":3,"x":-149,"text":"本训练提升您的","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#213740","align":"center"},
                                     "nodeParent":155,
                                     "label":"Text",
                                     "isDirectory":false,
@@ -367,7 +451,7 @@
                                 },
                                 {
                                     "type":"Text",
-                                    "props":{"x":408,"text":"表现","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "props":{"y":3,"x":459,"text":"表现","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#213740","align":"center"},
                                     "nodeParent":155,
                                     "label":"Text",
                                     "isDirectory":false,
@@ -379,7 +463,7 @@
                                 },
                                 {
                                     "type":"Text",
-                                    "props":{"x":285,"text":"注意力","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
+                                    "props":{"y":3,"x":276,"text":"注意力","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
                                     "nodeParent":155,
                                     "label":"Text",
                                     "isOpen":false,
@@ -393,7 +477,7 @@
                         },
                         {
                             "type":"Box",
-                            "props":{"y":147,"x":282},
+                            "props":{"y":152,"x":294},
                             "nodeParent":153,
                             "label":"Box",
                             "isOpen":true,
@@ -404,7 +488,7 @@
                             "child":[
                                 {
                                     "type":"Text",
-                                    "props":{"y":0,"x":20,"text":"请关注钻石的","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","align":"center"},
+                                    "props":{"y":13,"x":-119,"text":"请关注钻石的","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#213740","align":"center"},
                                     "nodeParent":159,
                                     "label":"Text",
                                     "isDirectory":false,
@@ -416,7 +500,7 @@
                                 },
                                 {
                                     "type":"Text",
-                                    "props":{"y":0,"x":260,"text":"位置和颜色","height":80,"fontSize":40,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
+                                    "props":{"y":13,"x":247,"text":"位置和颜色","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#213740","bold":true,"align":"center"},
                                     "nodeParent":159,
                                     "label":"Text",
                                     "isOpen":false,
@@ -435,7 +519,7 @@
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"visible":false,"var":"screen3","mouseEnabled":true},
+            "props":{"y":0,"x":0,"visible":false,"var":"screen3","mouseEnabled":true,"alpha":0},
             "nodeParent":1,
             "label":"Box(screen3)",
             "isOpen":false,
@@ -444,90 +528,6 @@
             "hasChild":true,
             "compId":146,
             "child":[
-                {
-                    "type":"Box",
-                    "props":{"y":0,"x":0,"visible":false,"var":"cloud"},
-                    "nodeParent":146,
-                    "label":"Box(cloud)",
-                    "isOpen":false,
-                    "isDirectory":true,
-                    "isAniNode":true,
-                    "hasChild":true,
-                    "compId":58,
-                    "child":[
-                        {
-                            "type":"Image",
-                            "props":{"y":824.8,"x":20,"skin":"pageImg/mountain3.png","alpha":0.5733333333333333},
-                            "nodeParent":58,
-                            "label":"Image",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":56,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "type":"Image",
-                            "props":{"y":905.0666666666666,"x":990,"skin":"pageImg/mountain4.png","alpha":0.5733333333333333},
-                            "nodeParent":58,
-                            "label":"Image",
-                            "isDirectory":false,
-                            "isAniNode":true,
-                            "hasChild":false,
-                            "compId":57,
-                            "child":[
-                                ]
-                        },
-                        {
-                            "type":"Box",
-                            "props":{"y":115.2,"x":256,"alpha":0.5733333333333333},
-                            "nodeParent":58,
-                            "label":"Box",
-                            "isOpen":true,
-                            "isDirectory":true,
-                            "isAniNode":true,
-                            "hasChild":true,
-                            "compId":65,
-                            "child":[
-                                {
-                                    "type":"Image",
-                                    "props":{"y":50,"x":0,"skin":"pageImg/mountain1.png","alpha":1},
-                                    "nodeParent":65,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":54,
-                                    "child":[
-                                        ]
-                                },
-                                {
-                                    "type":"Image",
-                                    "props":{"y":400,"x":150,"skin":"pageImg/mountain2.png","alpha":1},
-                                    "nodeParent":65,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":55,
-                                    "child":[
-                                        ]
-                                },
-                                {
-                                    "type":"Image",
-                                    "props":{"y":328,"x":265,"skin":"pageImg/fixedCloud.png"},
-                                    "nodeParent":65,
-                                    "label":"Image",
-                                    "isDirectory":false,
-                                    "isAniNode":true,
-                                    "hasChild":false,
-                                    "compId":60,
-                                    "child":[
-                                        ]
-                                }]
-                        }]
-                },
                 {
                     "type":"Box",
                     "props":{"y":0,"x":0,"width":1920,"visible":true,"var":"header","height":1200},
@@ -644,7 +644,7 @@
                     "props":{"y":0,"x":0,"width":1920,"var":"cloud12","height":1200},
                     "nodeParent":146,
                     "label":"Box(cloud12)",
-                    "isOpen":true,
+                    "isOpen":false,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -664,61 +664,73 @@
                         },
                         {
                             "type":"Image",
-                            "props":{"y":278,"x":652,"skin":"pageImg/yun0.png"},
+                            "props":{"y":275,"x":660,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":163,
+                            "compId":232,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":350,"x":983,"skin":"pageImg/yun0.png"},
+                            "props":{"y":345,"x":1001,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":164,
+                            "compId":233,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":300,"x":1325,"skin":"pageImg/yun0.png"},
+                            "props":{"y":282,"x":1260,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":165,
+                            "compId":234,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":565,"x":735,"skin":"pageImg/yun0.png"},
+                            "props":{"y":818,"x":193,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":166,
+                            "compId":235,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":810,"x":210,"skin":"pageImg/yun0.png"},
+                            "props":{"y":683,"x":486,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":168,
+                            "compId":236,
+                            "child":[
+                                ]
+                        },
+                        {
+                            "type":"Image",
+                            "props":{"y":574,"x":729,"skin":"pageImg/yun0.png"},
+                            "nodeParent":94,
+                            "label":"Image",
+                            "isDirectory":false,
+                            "isAniNode":true,
+                            "hasChild":false,
+                            "compId":237,
                             "child":[
                                 ]
                         },
@@ -730,7 +742,7 @@
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":169,
+                            "compId":238,
                             "child":[
                                 ]
                         },
@@ -742,43 +754,43 @@
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":170,
+                            "compId":239,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":680,"x":1125,"skin":"pageImg/yun0.png"},
+                            "props":{"y":678,"x":1117,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":171,
+                            "compId":240,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":687,"x":1404,"skin":"pageImg/yun0.png"},
+                            "props":{"y":681,"x":1413,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":172,
+                            "compId":241,
                             "child":[
                                 ]
                         },
                         {
                             "type":"Image",
-                            "props":{"y":961,"x":1221,"skin":"pageImg/yun0.png"},
+                            "props":{"y":956,"x":1225,"skin":"pageImg/yun0.png"},
                             "nodeParent":94,
                             "label":"Image",
                             "isDirectory":false,
                             "isAniNode":true,
                             "hasChild":false,
-                            "compId":173,
+                            "compId":242,
                             "child":[
                                 ]
                         }]
@@ -809,7 +821,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":250,"x":1416,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds2","mouseEnabled":true},
+                    "props":{"y":244,"x":1345,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds2","mouseEnabled":true},
                     "nodeParent":146,
                     "label":"Image(diamonds2)",
                     "isDirectory":false,
@@ -821,7 +833,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":308.5,"x":1071,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds3","mouseEnabled":true},
+                    "props":{"y":300,"x":1093,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds3","mouseEnabled":true},
                     "nodeParent":146,
                     "label":"Image(diamonds3)",
                     "isDirectory":false,
@@ -845,7 +857,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":587,"x":518,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds5","mouseEnabled":true},
+                    "props":{"y":615,"x":565,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds5","mouseEnabled":true},
                     "nodeParent":146,
                     "label":"Image(diamonds5)",
                     "isDirectory":false,
@@ -857,7 +869,7 @@
                 },
                 {
                     "type":"Image",
-                    "props":{"y":775,"x":307.5,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds6","mouseEnabled":true},
+                    "props":{"y":780,"x":285,"visible":false,"skin":"pageImg/diamondsB0.png","name":"diamonds6","mouseEnabled":true},
                     "nodeParent":146,
                     "label":"Image(diamonds6)",
                     "isDirectory":false,
@@ -927,12 +939,12 @@
                     "child":[
                         ]
                 }],
-            "$HIDDEN":true
+            "$HIDDEN":false
         },
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screen4","height":1200},
+            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screen4","height":1200,"alpha":1},
             "nodeParent":1,
             "label":"Box(screen4)",
             "isOpen":false,
@@ -1007,7 +1019,7 @@
                     "props":{"y":582,"x":449.5,"var":"levelLoadBox"},
                     "nodeParent":174,
                     "label":"Box(levelLoadBox)",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -1080,7 +1092,7 @@
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screenStop","height":1200},
+            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screenStop","height":1200,"alpha":0},
             "nodeParent":1,
             "label":"Box(screenStop)",
             "isOpen":false,
@@ -1131,7 +1143,7 @@
                     "props":{"y":371,"x":1016,"var":"restart","skin":"pageImg/btnBg2.png"},
                     "nodeParent":189,
                     "label":"Image(restart)",
-                    "isOpen":false,
+                    "isOpen":true,
                     "isDirectory":true,
                     "isAniNode":true,
                     "hasChild":true,
@@ -1139,7 +1151,7 @@
                     "child":[
                         {
                             "type":"Text",
-                            "props":{"y":20,"x":0,"width":500,"text":"从新开始","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
+                            "props":{"y":20,"x":0,"width":500,"text":"重新开始","height":80,"fontSize":60,"font":"Microsoft YaHei","color":"#fff","align":"center"},
                             "nodeParent":195,
                             "label":"Text",
                             "isDirectory":false,
@@ -1203,7 +1215,7 @@
         {
             "x":15,
             "type":"Box",
-            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screenHelp","height":1200},
+            "props":{"y":0,"x":0,"width":1920,"visible":false,"var":"screenHelp","height":1200,"alpha":0},
             "nodeParent":1,
             "label":"Box(screenHelp)",
             "isOpen":false,
@@ -1439,7 +1451,7 @@
                                 "index":0
                             },
                             {
-                                "value":"pageImg/yun2.png",
+                                "value":"pageImg/yun1.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1447,7 +1459,7 @@
                                 "index":5
                             },
                             {
-                                "value":"pageImg/yun3.png",
+                                "value":"pageImg/yun2.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1455,7 +1467,7 @@
                                 "index":10
                             },
                             {
-                                "value":"pageImg/yun4.png",
+                                "value":"pageImg/yun3.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1463,7 +1475,7 @@
                                 "index":15
                             },
                             {
-                                "value":"pageImg/yun5.png",
+                                "value":"pageImg/yun4.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1471,7 +1483,7 @@
                                 "index":20
                             },
                             {
-                                "value":"pageImg/yun6.png",
+                                "value":"pageImg/yun5.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1479,7 +1491,7 @@
                                 "index":25
                             },
                             {
-                                "value":"pageImg/yun7.png",
+                                "value":"pageImg/yun6.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1487,7 +1499,7 @@
                                 "index":30
                             },
                             {
-                                "value":"pageImg/yun8.png",
+                                "value":"pageImg/yun7.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1495,7 +1507,7 @@
                                 "index":35
                             },
                             {
-                                "value":"pageImg/yun9.png",
+                                "value":"pageImg/yun8.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1503,7 +1515,7 @@
                                 "index":40
                             },
                             {
-                                "value":"pageImg/yun10.png",
+                                "value":"pageImg/yun9.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1511,7 +1523,7 @@
                                 "index":45
                             },
                             {
-                                "value":"pageImg/yun11.png",
+                                "value":"pageImg/yun10.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1519,7 +1531,7 @@
                                 "index":50
                             },
                             {
-                                "value":"pageImg/yun12.png",
+                                "value":"pageImg/yun11.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1527,7 +1539,7 @@
                                 "index":55
                             },
                             {
-                                "value":"pageImg/yun13.png",
+                                "value":"pageImg/yun12.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
@@ -1535,12 +1547,1406 @@
                                 "index":60
                             },
                             {
-                                "value":"pageImg/yun14.png",
+                                "value":"pageImg/yun13.png",
                                 "tweenMethod":"linearNone",
                                 "tween":false,
                                 "target":66,
                                 "key":"skin",
                                 "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":66,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":232,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":232,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":233,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":233,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":234,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":234,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":235,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":235,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":236,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":236,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":237,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":237,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":239,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":239,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":241,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":241,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":238,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":238,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":240,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":240,
+                                "key":"skin",
+                                "index":70
+                            }]
+                    }
+                },
+                {
+                    "target":242,
+                    "keyframes":{
+                        "skin":[
+                            {
+                                "value":"pageImg/yun14.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":0
+                            },
+                            {
+                                "value":"pageImg/yun13.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":5
+                            },
+                            {
+                                "value":"pageImg/yun12.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":10
+                            },
+                            {
+                                "value":"pageImg/yun11.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":15
+                            },
+                            {
+                                "value":"pageImg/yun10.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":20
+                            },
+                            {
+                                "value":"pageImg/yun9.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":25
+                            },
+                            {
+                                "value":"pageImg/yun8.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":30
+                            },
+                            {
+                                "value":"pageImg/yun7.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":35
+                            },
+                            {
+                                "value":"pageImg/yun6.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":40
+                            },
+                            {
+                                "value":"pageImg/yun5.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":45
+                            },
+                            {
+                                "value":"pageImg/yun4.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":50
+                            },
+                            {
+                                "value":"pageImg/yun3.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":55
+                            },
+                            {
+                                "value":"pageImg/yun2.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":60
+                            },
+                            {
+                                "value":"pageImg/yun1.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":65
+                            },
+                            {
+                                "value":"pageImg/yun0.png",
+                                "tweenMethod":"linearNone",
+                                "tween":false,
+                                "target":242,
+                                "key":"skin",
+                                "index":70
                             }]
                     }
                 }],
@@ -1551,132 +2957,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":164,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":164,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud2",
             "id":5,
             "frameRate":24,
@@ -2101,150 +3382,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":165,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":300,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":165,
-                                "key":"y",
-                                "index":0
-                            }],
-                        "x":[
-                            {
-                                "value":1320,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":165,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":165,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud3",
             "id":5,
             "frameRate":24,
@@ -2252,132 +3390,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":163,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":163,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud4",
             "id":5,
             "frameRate":24,
@@ -2385,132 +3398,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":166,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":166,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud5",
             "id":5,
             "frameRate":24,
@@ -2518,124 +3406,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":168,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":168,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud7",
             "id":5,
             "frameRate":24,
@@ -2643,150 +3414,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":169,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":625,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":169,
-                                "key":"y",
-                                "index":0
-                            }],
-                        "x":[
-                            {
-                                "value":425,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":169,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":169,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud8",
             "id":5,
             "frameRate":24,
@@ -2794,124 +3422,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":170,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":170,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud9",
             "id":5,
             "frameRate":24,
@@ -2919,150 +3430,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":171,
-                    "keyframes":{
-                        "y":[
-                            {
-                                "value":680,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":171,
-                                "key":"y",
-                                "index":0
-                            }],
-                        "x":[
-                            {
-                                "value":1125,
-                                "tweenMethod":"linearNone",
-                                "tween":true,
-                                "target":171,
-                                "key":"x",
-                                "index":0
-                            }],
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":171,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud10",
             "id":5,
             "frameRate":24,
@@ -3070,132 +3438,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":172,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":65
-                            },
-                            {
-                                "value":"pageImg/yun0.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":172,
-                                "key":"skin",
-                                "index":70
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud11",
             "id":5,
             "frameRate":24,
@@ -3203,124 +3446,7 @@
         },
         {
             "nodes":[
-                {
-                    "target":173,
-                    "keyframes":{
-                        "skin":[
-                            {
-                                "value":"pageImg/yun1.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":0
-                            },
-                            {
-                                "value":"pageImg/yun2.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":5
-                            },
-                            {
-                                "value":"pageImg/yun3.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":10
-                            },
-                            {
-                                "value":"pageImg/yun4.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":15
-                            },
-                            {
-                                "value":"pageImg/yun5.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":20
-                            },
-                            {
-                                "value":"pageImg/yun6.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":25
-                            },
-                            {
-                                "value":"pageImg/yun7.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":30
-                            },
-                            {
-                                "value":"pageImg/yun8.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":35
-                            },
-                            {
-                                "value":"pageImg/yun9.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":40
-                            },
-                            {
-                                "value":"pageImg/yun10.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":45
-                            },
-                            {
-                                "value":"pageImg/yun11.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":50
-                            },
-                            {
-                                "value":"pageImg/yun12.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":55
-                            },
-                            {
-                                "value":"pageImg/yun13.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":60
-                            },
-                            {
-                                "value":"pageImg/yun14.png",
-                                "tweenMethod":"linearNone",
-                                "tween":false,
-                                "target":173,
-                                "key":"skin",
-                                "index":65
-                            }]
-                    }
-                }],
+                ],
             "name":"cloud12",
             "id":5,
             "frameRate":24,
